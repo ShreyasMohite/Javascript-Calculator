@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./c.ico" type="image/x-icon">
+    <script src="./js/app.js"></script>
+    <link rel="stylesheet" href="./sass/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="content-center">
+        <div class="card">
+            <div class="card1">
+                <div class="input-eval">
+                    <input type="text" name="" id="eval" readonly>
+                </div>
+                <div class="input-answer">
+                    <input type="text" name="" id="ans" readonly>
+                </div>
+                
+            </div>
+            <div class="card2">
+                <div class="buttons">
+                    <div class="button1">
+                        <button onclick="seven()">7</button>
+                        <button onclick="eight()">8</button>
+                        <button onclick="nine()">9</button>
+                        <button onclick="plus()">+</button>
+                    </div>
+                    <div class="button2">
+                        <button onclick="four()">4</button>
+                        <button onclick="five()">5</button>
+                        <button onclick="six()">6</button>
+                        <button onclick="minus()">-</button>
+                    </div>
+                    <div class="button3">
+                        <button onclick="one()">1</button>
+                        <button onclick="two()">2</button>
+                        <button onclick="three()">3</button>
+                        <button onclick="star()">*</button>
+                    </div>
+                    <div class="button4">
+                        <button onclick="zero()">0</button>
+                        <button onclick="decimal()">.</button>
+                        <button onclick="division()">/</button>
+                        <button onclick="equal()" class="equal">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
