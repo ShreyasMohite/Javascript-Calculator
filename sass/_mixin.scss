@@ -1,0 +1,28 @@
+@import "variable";
+
+
+@mixin button-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0rem;
+}
+
+
+
+@mixin button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 1s ease-in;
+    
+    
+    &:hover{
+        background-color: $button-background;
+        box-shadow: 0px 0px 10px;
+    }
+}
+
+
